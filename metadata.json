@@ -1,0 +1,6 @@
+{
+  "name": "Explore Bangladesh",
+  "description": "Premium travel and cultural guide to Bangladesh - explore 8 divisions, 64 districts, upazilas, heritage, attractions, and traditions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

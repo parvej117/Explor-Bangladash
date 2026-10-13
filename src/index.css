@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bengali: 'Hind Siliguri', 'Noto Sans Bengali', sans-serif;
+  --font-display: 'Plus Jakarta Sans', 'Hind Siliguri', sans-serif;
+  --color-bd-green-50: #ecfdf5;
+  --color-bd-green-100: #d1fae5;
+  --color-bd-green-500: #10b981;
+  --color-bd-green-600: #059669;
+  --color-bd-green-700: #047857;
+  --color-bd-navy-900: #0b132b;
+  --color-bd-navy-950: #070d1e;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Hind Siliguri', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b132b;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}
+
+/* Prevent default browser focus outline boxes */
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
